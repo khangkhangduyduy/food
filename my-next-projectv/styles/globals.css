@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0 ;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  text-decoration:none;
+}
+
+body {
+  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+    'Arial', sans-serif;
+  padding: 20px;
+  max-width: 100%;
+}
+main li {
+display: inline-block;
+margin: 10px;
+}
+
+#main button {
+  width: 130px;
+  height: 50px;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  font-size: 1.1em;
+  font-weight: 500;
+  transition:  .5s;
+}
+
+#main button:hover {
+  background:#a3d65b;
+} 
